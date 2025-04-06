@@ -1,0 +1,10 @@
+*.asv
+*.log
+*.aux
+*.out
+*.fig
+*.slxc
+*.mex*
+*.mat
+.DS_Store
+
