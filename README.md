@@ -1,40 +1,17 @@
-# Vehicular Platooning Simulation Framework
+# Connected Vehicles Control
 
-This repository provides a modular MATLAB framework for simulating and analyzing connected vehicle platoons. The system includes components for:
+This repository contains MATLAB-based tools and simulations for connected vehicles control. The project focuses on analyzing the performance and safety of vehicle platooning under various information flow topologies (IFTs). The tools include simulation of the control system, computation of shared control gains, evaluation of safety/performance metrics, and visualization of accumulated average metrics.
 
-- Initial condition generation (pre-platooning phase)
-- Distributed control of follower vehicles
-- Communication topology modeling
-- Performance evaluation (comfort, safety, fuel, etc.)
+## Overview
 
----
-
-## 📦 Modules
-
-### 🚦 Initializer
-
-Located in [`initializer/`](initializer/), this module simulates the leader trajectory and follower behavior before platooning begins. It outputs:
-
-- Initial states for all follower vehicles
-- Leader’s state at the time of platoon trigger
-
-Useful for seamless integration into your downstream platoon controller.
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-## 🛠 MATLAB Version
-
-Tested on MATLAB R2023a.
-
----
-
-## 📬 Contact
-
-Maintained by [Your Name]
-
+The main objectives of the project are to:
+- **Simulate a vehicle platoon** using various information Flow Topologies (IFTs).
+- **Compute shared control gains** by comparing control gain tags across different IFTs.
+- **Evaluate safety and performance metrics** such as:
+  - **DRAC** (Deceleration Rate)
+  - **TTC** (Time-to-Collision)
+  - **InpuT** (Control Input Effort)
+  - **ACC** (Acceleration)
+  - **JRK** (Jerk)
+  - **Settling Time**
+- **Aggregate and visualize metrics** by computing cumulative mean and standard deviation values over a grid of control gains.
