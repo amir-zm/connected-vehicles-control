@@ -1,6 +1,6 @@
 # IFT Control System Simulation
 
-This repository contains a MATLAB simulation code for analyzing follower dynamics under different inter-follower topologies (IFT). The simulation computes control gains and evaluates the stability and performance of a platoon of follower vehicles using various configurations. The code is modularized into several functions for easier maintenance and testing.
+This repository contains a MATLAB simulation code for analyzing follower dynamics under different Information Flow Topologies (IFTs). The simulation computes control gains and evaluates the stability and performance of a platoon of follower vehicles using various configurations. The code is modularized into several functions for easier maintenance and testing.
 
 ## Overview
 
