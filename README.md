@@ -5,7 +5,7 @@ This repository contains MATLAB-based tools and simulations for connected vehicl
 ## Overview
 
 The main objectives of the project are to:
-- **Simulate a vehicle platoon** using various information Flow Topologies (IFTs).
+- **Simulate a vehicle platoon** using various Information Flow Topologies (IFTs).
 - **Compute shared control gains** by comparing control gain tags across different IFTs.
 - **Evaluate safety and performance metrics** such as:
   - **DRAC** (Deceleration Rate)
